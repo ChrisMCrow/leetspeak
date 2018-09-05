@@ -27,7 +27,7 @@ namespace Leetspeak
         {
           letterList.Add('7');
         }
-        else if ((inputArray[i] == 's' || inputArray[i] == 'S') && i != 0)
+        else if ((inputArray[i] == 's' || inputArray[i] == 'S') && i != 0 && inputArray[i-1] != ' ' && inputArray[i-1] != '\'')
         {
           letterList.Add('z');
         }

@@ -42,5 +42,12 @@ namespace Leetspeak.Tests
       LeetspeakTranslator test = new LeetspeakTranslator();
       Assert.AreEqual("sazz sazz", test.Translate("sass sass"));
     }
+    [TestMethod]
+    public void Translate_AllPreviousSpecs_True()
+    {
+      LeetspeakTranslator test = new LeetspeakTranslator();
+      Assert.AreEqual("D0n'7 y0u l0v3 7h3z3 'S7ring' 3x3rciz3z? 1 d0!", test.Translate("Don't you love these 'String' exercises? I do!"));
+    }
+
   }
 }

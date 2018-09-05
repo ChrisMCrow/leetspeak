@@ -8490,22 +8490,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak.Tests/Leetspeak.Tests.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak.Tests/Leetspeak.Tests.csproj",
       "projectName": "Leetspeak.Tests",
-      "projectPath": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak.Tests/Leetspeak.Tests.csproj",
-      "outputPath": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak.Tests/obj/",
+      "projectPath": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak.Tests/Leetspeak.Tests.csproj",
+      "outputPath": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak.Tests/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Leetspeak.Tests.dll": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak.Tests/bin/placeholder/netcoreapp1.1/Leetspeak.Tests.dll"
+        "lib/netcoreapp1.1/Leetspeak.Tests.dll": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak.Tests/bin/placeholder/netcoreapp1.1/Leetspeak.Tests.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak/Leetspeak.csproj": {
-              "projectPath": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak/Leetspeak.csproj"
+            "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak/Leetspeak.csproj": {
+              "projectPath": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak/Leetspeak.csproj"
             }
           }
         }

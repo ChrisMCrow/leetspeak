@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak/Leetspeak.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak/Leetspeak.csproj",
       "projectName": "Leetspeak",
-      "projectPath": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak/Leetspeak.csproj",
-      "outputPath": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak/obj/",
+      "projectPath": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak/Leetspeak.csproj",
+      "outputPath": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Leetspeak.dll": "/Users/Guest/Desktop/Leetspeak.Solutions/Leetspeak/bin/placeholder/netcoreapp1.1/Leetspeak.dll"
+        "lib/netcoreapp1.1/Leetspeak.dll": "/Users/Guest/Desktop/Leetspeak.Solution/Leetspeak/bin/placeholder/netcoreapp1.1/Leetspeak.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

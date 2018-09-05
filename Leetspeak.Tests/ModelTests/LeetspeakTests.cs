@@ -40,7 +40,7 @@ namespace Leetspeak.Tests
     public void Translate_ChangeNonInitialStoZ_True()
     {
       LeetspeakTranslator test = new LeetspeakTranslator();
-      Assert.AreEqual("sazz", test.Translate("sass"));
+      Assert.AreEqual("sazz sazz", test.Translate("sass sass"));
     }
   }
 }

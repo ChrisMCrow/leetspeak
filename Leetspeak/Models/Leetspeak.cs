@@ -15,9 +15,17 @@ namespace Leetspeak
         {
           letterList.Add('3');
         }
+        else if (inp == 'I')
+        {
+          letterList.Add('1');
+        }
         else if (inp == 'o' || inp == 'O')
         {
           letterList.Add('0');
+        }
+        else if (inp == 't' || inp == 'T')
+        {
+          letterList.Add('7');
         }
         else
         {

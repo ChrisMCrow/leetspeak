@@ -30,5 +30,17 @@ namespace Leetspeak.Tests
       LeetspeakTranslator test = new LeetspeakTranslator();
       Assert.AreEqual("1cky", test.Translate("Icky"));
     }
+    [TestMethod]
+    public void Translate_ChangeTto7_True()
+    {
+      LeetspeakTranslator test = new LeetspeakTranslator();
+      Assert.AreEqual("7a7", test.Translate("tat"));
+    }
+    [TestMethod]
+    public void Translate_ChangeNonInitialStoZ_True()
+    {
+      LeetspeakTranslator test = new LeetspeakTranslator();
+      Assert.AreEqual("sazz", test.Translate("sass"));
+    }
   }
 }

@@ -9,27 +9,31 @@ namespace Leetspeak
     {
       char[] inputArray = input.ToCharArray();
       List<char> letterList = new List<char> {};
-      foreach(char inp in inputArray)
+      for (int i = 0; i < inputArray.Length; i++)
       {
-        if (inp == 'e' || inp == 'E')
+        if (inputArray[i] == 'e' || inputArray[i] == 'E')
         {
           letterList.Add('3');
         }
-        else if (inp == 'I')
-        {
-          letterList.Add('1');
-        }
-        else if (inp == 'o' || inp == 'O')
+        else if (inputArray[i] == 'o' || inputArray[i] == 'O')
         {
           letterList.Add('0');
         }
-        else if (inp == 't' || inp == 'T')
+        else if (inputArray[i] == 'I')
+        {
+          letterList.Add('1');
+        }
+        else if (inputArray[i] == 't' || inputArray[i] == 'T')
         {
           letterList.Add('7');
         }
+        else if ((inputArray[i] == 's' || inputArray[i] == 'S') && i != 0)
+        {
+          letterList.Add('z');
+        }
         else
         {
-          letterList.Add(inp);
+          letterList.Add(inputArray[i]);
         }
       }
       string result = string.Join("", letterList);
